@@ -1,0 +1,14 @@
+#control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#display{
+    width: 200px;
+    background-color: rgb(100, 198, 237);
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 15px;
+}

@@ -1,0 +1,20 @@
+#padbanks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.drum-pad{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(100, 198, 237);
+    color: rgb(25, 27, 95);
+    font-weight: bold;
+    cursor: pointer;
+}

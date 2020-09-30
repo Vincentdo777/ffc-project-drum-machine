@@ -1,0 +1,22 @@
+#drum-machine{
+    display:grid;
+    grid-template-areas:"drumPads control"
+                        "drumPads logo";
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(95, 158, 160);
+    width: 600px;
+    height: 600px;
+}
+#drum-machine > #padbanks{
+    grid-area: drumPads;
+    
+}
+#drum-machine > #control{
+    grid-area: control;
+
+}
+#drum-machine > #logo{
+    grid-area: logo;
+    
+}
